@@ -71,7 +71,7 @@ only variant that supports --group-directories-first."
 (use-package! ranger
   :when (featurep! +ranger)
   :after dired
-  :init (setq ranger-override-dired t)
+  ;; :init (setq ranger-override-dired t)
   :config
   (unless (file-directory-p image-dired-dir)
     (make-directory image-dired-dir))
