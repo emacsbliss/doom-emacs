@@ -221,7 +221,7 @@ variable for an explanation of the defaults (in comments). See
       vdiff
       view
       vlf
-      vterm
+      ;; vterm
       w3m
       wdired
       wgrep
