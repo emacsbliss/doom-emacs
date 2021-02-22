@@ -42,8 +42,8 @@
         (set-frame-parameter frame 'menu-bar-lines 1)))))
 
 ;; Integrate with Keychain
-(after! auth-source
-  (pushnew! auth-sources 'macos-keychain-internet 'macos-keychain-generic))
+;; (after! auth-source
+;;   (pushnew! auth-sources 'macos-keychain-internet 'macos-keychain-generic))
 
 
 ;;
